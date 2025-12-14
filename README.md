@@ -20,44 +20,55 @@ A full-stack production-ready application for managing a sweet shop inventory wi
 
 ### 🔐 Authentication
 #### Login Page
-![Login Page](screenshots/login.png)
+![Login Page]<img width="1844" height="1028" alt="Screenshot 2025-12-14 202432" src="https://github.com/user-attachments/assets/a0302674-49c7-4ac8-81c0-d704719bc7e7" />
+
 
 #### Signup / Register Page
-![Signup Page](screenshots/signup.png)
+![Signup Page]<img width="1844" height="1017" alt="Screenshot 2025-12-14 202438" src="https://github.com/user-attachments/assets/cbe5b26a-9c46-4d37-ac4b-323a1c2b72db" />
+
 
 ---
 
 ### 👤 User Dashboard
 #### User Dashboard View
-![User Dashboard](<img width="1824" height="1029" alt="Screenshot 2025-12-14 202149" src="https://github.com/user-attachments/assets/5dbd9fc4-f777-4eb8-ba07-48562f3fff17" />
+![User Dashboard]<img width="1840" height="1026" alt="Screenshot 2025-12-14 202605" src="https://github.com/user-attachments/assets/ba1ee358-af9d-4e0c-b4ec-822797f7a8a7" />
+
 )
 
 #### Search Functionality
-![Search Functionality](screenshots/search.png)
+![Search Functionality]<img width="1848" height="1028" alt="Screenshot 2025-12-14 202246" src="https://github.com/user-attachments/assets/38ce7838-3e4e-48fc-870e-61b56ee6adf9" />
+
 
 #### Filters (Category & Price Range)
-![Filters](screenshots/filters.png)
+![Filters]<img width="1836" height="1021" alt="Screenshot 2025-12-14 202310" src="https://github.com/user-attachments/assets/daefa70d-7dbf-42b4-bda9-c3e89206b794" />
+<img width="1844" height="1021" alt="Screenshot 2025-12-14 202330" src="https://github.com/user-attachments/assets/7f5da6a4-7756-4a17-8bad-b6aeeaa1b4e5" />
+
 
 ---
 
 ### 🛠 Admin Dashboard
 #### Admin Dashboard View
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard]<img width="1824" height="1029" alt="Screenshot 2025-12-14 202149" src="https://github.com/user-attachments/assets/1dfa6f94-3eb6-4d1a-a4d8-7d7e24983088" />
+
 
 #### Edit Sweet Functionality
-![Edit Sweet](screenshots/edit-sweet.png)
+![Edit Sweet]<img width="1851" height="1029" alt="Screenshot 2025-12-14 202204" src="https://github.com/user-attachments/assets/e48851b4-4aa0-416d-b2de-0958ec5500a2" />
+
 
 #### Restock Sweet Functionality
-![Restock Sweet](screenshots/restock-sweet.png)
+![Restock Sweet]<img width="1847" height="1027" alt="Screenshot 2025-12-14 202219" src="https://github.com/user-attachments/assets/39907419-8918-46a9-b854-ed554991508f" />
+
 
 #### Delete Sweet Confirmation
-![Delete Sweet](screenshots/delete-sweet.png)
+![Delete Sweet]<img width="1841" height="1028" alt="Screenshot 2025-12-14 202228" src="https://github.com/user-attachments/assets/c22742d1-3cdf-42f0-aa72-2bcd8c540461" />
+
 
 ---
 
 ### ➕ Add Sweet Functionality
 #### Add New Sweet (Admin Panel)
-![Add Sweet](screenshots/add-sweet.png)
+![Add Sweet]<img width="1845" height="1026" alt="Screenshot 2025-12-14 202340" src="https://github.com/user-attachments/assets/a65bf2ab-d712-46d7-9af6-d27cd5ffba1e" />
+
 
 
 ## 📋 Project Overview
