@@ -741,63 +741,54 @@ The application is fully responsive and works on:
 - **Comments**: Well-documented code
 - **SOLID Principles**: Following best practices
 
-🤖 My AI Usage
-AI Tools Used
+## 🤖 My AI Usage
 
-Cursor AI – Used during the initial development phase
+### 🔧 AI Tools Used
+- **Cursor AI** – Used during the **initial development phase**
+- **ChatGPT** – Used later for **selective backend guidance and UI/UX refinements**
 
-ChatGPT – Used later for selective backend guidance and UI/UX refinements
+---
 
-How AI Was Used
-Initial Development (Cursor AI)
+### 🧠 How AI Was Used
 
-I initially used Cursor AI to assist with:
+#### 🚀 Initial Development (Cursor AI)
+I initially used **Cursor AI** to assist with:
+- **Setting up the project structure** and folder organization  
+- **Designing a clean MVC-based backend architecture**  
+- **Creating initial boilerplate code** for controllers, routes, and middleware  
+- **Drafting initial backend test cases** to support a **TDD workflow**
 
-Setting up the project structure and folder organization
+All generated code was **manually reviewed, modified, and extended** to meet project requirements and maintain **high code quality**.
 
-Designing a clean MVC-based backend architecture
+---
 
-Creating initial boilerplate code for controllers, routes, and middleware
+#### ⚙️ Backend Development Assistance (ChatGPT)
+With the help of **ChatGPT**, I implemented and refined several backend components, including:
+- **User and Sweet schema design**, where ChatGPT suggested schema structures and validation patterns, while I finalized the models based on application needs  
+- **Indexing and validation rules**, using ChatGPT as a reference for **MongoDB best practices**, which were then manually applied and tested  
+- **Inventory update logic (purchase and restock)**, where ChatGPT assisted in identifying **edge cases** (e.g., insufficient stock), and I implemented the final business logic  
+- **Query logic for search and filtering**, where ChatGPT helped form **efficient query patterns** for name, category, and price range filtering, which were integrated and optimized manually  
 
-Drafting an initial set of backend test cases to support a TDD workflow
+All **database integration and MongoDB implementation** were completed with **careful manual validation and testing**.
 
-All generated code was manually reviewed, modified, and extended to meet project requirements and maintain code quality.
+---
 
-Backend Development Assistance (ChatGPT)
+#### 🎨 UI & Feature Refinements (ChatGPT)
+After completing the core implementation, I used **ChatGPT selectively** to improve **usability and functionality**, including:
+- Updating **admin dashboard actions** by clearly separating **Edit, Restock, and Delete** buttons  
+- Adding **navigation options to the Admin Panel**, allowing admins to **add and fully manage sweets**  
+- Improving **user-side price range filters** by enforcing **minimum and maximum price limits**  
+- Refining **UI behavior and layout decisions** for a better **user experience**  
+- Improving **clarity and structure** in selected documentation sections  
 
-With the help of ChatGPT, I implemented and refined several backend components, including:
+All suggested changes were **reviewed, customized, and implemented manually**.
 
-User and Sweet schema design, where ChatGPT helped suggest schema structures and validation patterns, while I finalized the models based on application needs
+---
 
-Indexing and validation rules, using ChatGPT as a reference for MongoDB best practices, which were then manually applied and tested
+### 🧩 Reflection
+AI tools were used as **productivity and guidance aids**, **not** as a replacement for development. All **architectural decisions, business logic, database handling, authorization rules, and final UI behavior** were **implemented, tested, and validated by me**.
 
-Inventory update logic (purchase and restock), where ChatGPT assisted in identifying edge cases such as insufficient stock, and I implemented the final business logic
-
-Query logic for search and filtering, where ChatGPT helped form efficient query patterns for name, category, and price range filtering, which were integrated and optimized manually
-
-All database integration and MongoDB implementation were completed with careful manual validation and testing.
-
-UI & Feature Refinements (ChatGPT)
-
-After completing the core implementation, I used ChatGPT selectively to improve usability and functionality, including:
-
-Updating admin dashboard actions by separating Edit, Restock, and Delete buttons for clarity
-
-Adding navigation options to the Admin Panel, allowing admins to add and fully manage sweets
-
-Improving user-side price range filters by enforcing minimum and maximum price limits
-
-Refining UI behavior and layout decisions for better user experience
-
-Improving clarity and structure in selected documentation sections
-
-All suggested changes were reviewed, customized, and implemented manually.
-
-Reflection
-
-AI tools were used as productivity and guidance aids, not as a replacement for development. All architectural decisions, business logic, database handling, authorization rules, and final UI behavior were implemented, tested, and validated by me.
-
-This project represents a balanced workflow where AI accelerated development while full ownership and responsibility for code quality and correctness remained entirely mine.
+This project represents a **balanced development workflow**, where AI accelerated progress while **full ownership and responsibility for code quality and correctness remained entirely mine**.
 
 However, manual review and testing were essential to ensure:
 - Business logic correctness
