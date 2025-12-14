@@ -741,70 +741,63 @@ The application is fully responsive and works on:
 - **Comments**: Well-documented code
 - **SOLID Principles**: Following best practices
 
-## 🤖 My AI Usage
+🤖 My AI Usage
+AI Tools Used
 
-### AI Tools Used
-- **Cursor AI**: Primary development assistant for code generation and architecture design
+Cursor AI – Used during the initial development phase
 
-### How AI Helped
+ChatGPT – Used later for selective backend guidance and UI/UX refinements
 
-#### Backend Development
-1. **Architecture Design**: AI assisted in designing the MVC architecture and folder structure following best practices.
-2. **Code Generation**: Generated complete, production-ready code for:
-   - All models with proper Mongoose schemas
-   - Controllers with comprehensive error handling
-   - Routes with validation middleware
-   - Service layer for business logic separation
-   - Middleware for authentication and authorization
-3. **Testing**: Created comprehensive test suites covering:
-   - Authentication flows
-   - CRUD operations
-   - Authorization checks
-   - Edge cases and error scenarios
-4. **Documentation**: Generated detailed API documentation and setup instructions.
-5. **Best Practices**: Ensured code follows:
-   - SOLID principles
-   - RESTful API conventions
-   - Security best practices
-   - Error handling patterns
+How AI Was Used
+Initial Development (Cursor AI)
 
-#### Frontend Development
-1. **Component Architecture**: AI assisted in designing a clean component structure following React best practices.
-2. **Redux Implementation**: Generated Redux Toolkit slices and services with:
-   - Proper async thunk patterns
-   - Error handling
-   - Loading states
-   - Optimistic updates
-3. **UI Components**: Created beautiful, responsive components:
-   - Modern gradient designs
-   - Modal dialogs
-   - Form components
-   - Loading states
-   - Error displays
-4. **Routing**: Implemented protected routes with proper authentication checks.
-5. **State Management**: Designed efficient state management patterns:
-   - Centralized state with Redux
-   - Service layer for API calls
-   - Proper state updates
-6. **Styling**: Generated Tailwind CSS classes for:
-   - Responsive layouts
-   - Modern UI design
-   - Consistent color scheme
-   - Hover effects and transitions
-7. **Integration**: Ensured proper integration between:
-   - Frontend and backend APIs
-   - Redux state and components
-   - Authentication flow
-   - Protected routes
+I initially used Cursor AI to assist with:
 
-### Reflection
+Setting up the project structure and folder organization
 
-The AI significantly accelerated development by:
-- Providing boilerplate code that follows industry standards
-- Suggesting proper error handling patterns
-- Ensuring consistent code style across the project
-- Generating comprehensive test cases
-- Creating detailed documentation
+Designing a clean MVC-based backend architecture
+
+Creating initial boilerplate code for controllers, routes, and middleware
+
+Drafting an initial set of backend test cases to support a TDD workflow
+
+All generated code was manually reviewed, modified, and extended to meet project requirements and maintain code quality.
+
+Backend Development Assistance (ChatGPT)
+
+With the help of ChatGPT, I implemented and refined several backend components, including:
+
+User and Sweet schema design, where ChatGPT helped suggest schema structures and validation patterns, while I finalized the models based on application needs
+
+Indexing and validation rules, using ChatGPT as a reference for MongoDB best practices, which were then manually applied and tested
+
+Inventory update logic (purchase and restock), where ChatGPT assisted in identifying edge cases such as insufficient stock, and I implemented the final business logic
+
+Query logic for search and filtering, where ChatGPT helped form efficient query patterns for name, category, and price range filtering, which were integrated and optimized manually
+
+All database integration and MongoDB implementation were completed with careful manual validation and testing.
+
+UI & Feature Refinements (ChatGPT)
+
+After completing the core implementation, I used ChatGPT selectively to improve usability and functionality, including:
+
+Updating admin dashboard actions by separating Edit, Restock, and Delete buttons for clarity
+
+Adding navigation options to the Admin Panel, allowing admins to add and fully manage sweets
+
+Improving user-side price range filters by enforcing minimum and maximum price limits
+
+Refining UI behavior and layout decisions for better user experience
+
+Improving clarity and structure in selected documentation sections
+
+All suggested changes were reviewed, customized, and implemented manually.
+
+Reflection
+
+AI tools were used as productivity and guidance aids, not as a replacement for development. All architectural decisions, business logic, database handling, authorization rules, and final UI behavior were implemented, tested, and validated by me.
+
+This project represents a balanced workflow where AI accelerated development while full ownership and responsibility for code quality and correctness remained entirely mine.
 
 However, manual review and testing were essential to ensure:
 - Business logic correctness
