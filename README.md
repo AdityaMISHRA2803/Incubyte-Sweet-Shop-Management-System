@@ -1,4 +1,4 @@
-# Sweet Shop Management System
+<img width="1824" height="1029" alt="Screenshot 2025-12-14 202149" src="https://github.com/user-attachments/assets/66c8ac5f-457d-4e4f-bf31-c9d9573a9f20" /># Sweet Shop Management System
 
 A full-stack production-ready application for managing a sweet shop inventory with user authentication, role-based access control, and comprehensive inventory management features.
 
@@ -15,6 +15,50 @@ A full-stack production-ready application for managing a sweet shop inventory wi
 - [Testing](#testing)
 - [Security](#security)
 - [My AI Usage](#my-ai-usage)
+
+## 📸 Screenshots
+
+### 🔐 Authentication
+#### Login Page
+![Login Page](screenshots/login.png)
+
+#### Signup / Register Page
+![Signup Page](screenshots/signup.png)
+
+---
+
+### 👤 User Dashboard
+#### User Dashboard View
+![User Dashboard](<img width="1824" height="1029" alt="Screenshot 2025-12-14 202149" src="https://github.com/user-attachments/assets/5dbd9fc4-f777-4eb8-ba07-48562f3fff17" />
+)
+
+#### Search Functionality
+![Search Functionality](screenshots/search.png)
+
+#### Filters (Category & Price Range)
+![Filters](screenshots/filters.png)
+
+---
+
+### 🛠 Admin Dashboard
+#### Admin Dashboard View
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+#### Edit Sweet Functionality
+![Edit Sweet](screenshots/edit-sweet.png)
+
+#### Restock Sweet Functionality
+![Restock Sweet](screenshots/restock-sweet.png)
+
+#### Delete Sweet Confirmation
+![Delete Sweet](screenshots/delete-sweet.png)
+
+---
+
+### ➕ Add Sweet Functionality
+#### Add New Sweet (Admin Panel)
+![Add Sweet](screenshots/add-sweet.png)
+
 
 ## 📋 Project Overview
 
