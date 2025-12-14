@@ -1,4 +1,7 @@
-<img width="1824" height="1029" alt="Screenshot 2025-12-14 202149" src="https://github.com/user-attachments/assets/66c8ac5f-457d-4e4f-bf31-c9d9573a9f20" /># Sweet Shop Management System
+# Sweet Shop Management System
+
+<img width="1840" height="1026" alt="Screenshot 2025-12-14 202605" src="https://github.com/user-attachments/assets/e26a6ca3-ca17-46ff-83a7-c31783d6fb8d" />
+
 
 A full-stack production-ready application for managing a sweet shop inventory with user authentication, role-based access control, and comprehensive inventory management features.
 
@@ -68,6 +71,9 @@ A full-stack production-ready application for managing a sweet shop inventory wi
 ### ➕ Add Sweet Functionality
 #### Add New Sweet (Admin Panel)
 ![Add Sweet]<img width="1845" height="1026" alt="Screenshot 2025-12-14 202340" src="https://github.com/user-attachments/assets/a65bf2ab-d712-46d7-9af6-d27cd5ffba1e" />
+
+#### User Purchase Flow
+![Purchase Sweet]<img width="1845" height="1024" alt="Screenshot 2025-12-14 202613" src="https://github.com/user-attachments/assets/28604652-18dc-40f6-b0ae-0e1fb5f2eca8" />
 
 
 
